@@ -55,7 +55,7 @@ docker run -d \
   -p 8191:8191 \
   -e LOG_LEVEL=info \
   --restart unless-stopped \
-  ghcr.io/flaresolverr/flaresolverr:latest
+  lianshufeng/flaresolverr:latest
 ```
 
 If your host OS is Debian, make sure `libseccomp2` version is 2.5.x. You can check the version with `sudo apt-cache policy libseccomp2` 
